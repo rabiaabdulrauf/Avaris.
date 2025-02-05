@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.4/dist/boxicons.js">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/media.css">
+    <title>Avaris | Hotel In Doha</title>
+    <link rel="shortcut icon" href="assests/png.png">
+</head>
+<body>
+    <!----------------------------------------navbar-------------------->
+    <div class="header">
+        <div class="logo">
+            <img src="assests/Screenshot_2025-02-01_154341-removebg-preview.png" alt="" class="avaris-pic">
+        </div>
+        <div class="nav-item">
+         <ul class="under">
+            <a href="#"><li class="home">Home</li></a>
+            <a href="#about-page"><li class="list-line"><div class="dropdown">
+                <button class="dropbtn">About<i class="fa-solid fa-caret-down"  id="icon"></i></button>
+                <div class="dropdown-content">
+                  <a href="#room-page">Room's</a>
+                  <a href="#">Availability</a>
+                  <a href="#">Restaurant</a>
+                </div>
+              </div></li></a>
+            <a href="#service-page"><li class="list-line"><div class="dropdown">
+                <button class="dropbtn">Services<i class="fa-solid fa-caret-down" id="icon"></i></button>
+                <div class="dropdown-content">
+                  <a href="#">Packages</a>
+                  <a href="#">Events</a>
+                  <a href="#">offers</a>
+                </div>
+              </div></li></a>
+            <a href="#room-page"><li class="list-line"><div class="dropdown">
+                <button class="dropbtn">Room's<i class="fa-solid fa-caret-down" id="icon"></i></button>
+                <div class="dropdown-content">
+                  <a href="#">Luxury rooms</a>
+                  <a href="#">Balcony rooms</a>
+                  <a href="#">Sea Veiw room</a>
+                </div>
+              </div></li></a>
+            <a href="#"><li class="list-line"><div class="dropdown">
+                <button class="dropbtn">Blog<i class="fa-solid fa-caret-down" id="icon"></i></button>
+                <div class="dropdown-content">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+              </div></li></a>
+         </ul>
+        </div>
+        <div class="button">
+      <button class="btn">reserved</button>
+        </div>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style="color: white;">&times;</a>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Room's</a>
+            <a href="#">Pages</a>
+            <a href="#">Blogs</a>
+            <a href="#">Contact</a>
+          </div>
+          <span style="font-size:40px;cursor:pointer; " class="spn-side" onclick="openNav()">&#9776;</span>
+    </div>
+    <!---------------------------------------carousel--------------------------------------->
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assests/bg3.jpg" class="d-block" alt="...">
+            <div class="carousel-caption d-md-block">
+              <div class="info">
+              <h5 class="vacation">Luxury Hotel  For Vacations</h5>
+              <p class="h-para">Experience the epitome of luxury and comfort at our prestigious hotel.</p>
+                <button class="book">Book Now</button>  
+            </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assests/bg2.jpeg" class="d-block" alt="...">
+            <div class="carousel-caption d-md-block">
+                <div class="info">
+              <h5 class="vacation">Your Home For Vacations</h5>
+              <p class="h-para">Experience the epitome of luxury and comfort at our prestigious hotel.</p>
+               <button class="book">Book Now</button>
+            </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assests/bg.jpg" class="d-block" alt="...">
+            <div class="carousel-caption  d-md-block">
+                <div class="info">
+              <h5 class="vacation">Best Hotel For Vacations</h5>
+              <p class="h-para">Experience the epitome of luxury and comfort at our prestigious hotel.</p>
+               <button class="book">Book Now</button>
+            </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <!----------------------------------------------form------------------------------------->
+    <div class="main">
+      <form action="https://formsubmit.co/rabiaabdulrauf18@gmail.com" method="POST">
+        <div class="form">
+         
+            <div class="arrival">
+                <h6 class="ad">Name</h6>
+                <input type="text" name="name" placeholder="Name">
+
+            </div>
+            <div class="dep">
+                <h6 class="ad">Email</h6>
+             <input type="email" name="email" placeholder="Email">
+            </div>
+            <div class="guest">
+                <h6 class="ad">Guest</h6>
+                <select name="Continent">
+                    <option >Select please</option>
+                    <option > Pakistan</option>
+                    <option > Dubai</option>
+                    <option > Japan</option>
+                    <option > Germany</option>
+                   
+                   </select>
+
+            </div>
+            <div class="btton">
+                <button class="check" type="submit">Submit Now</button>
+            </div>
+          </form>
+        </div>
+    </div>
+    <!-----------------------------------------------holiday --------------------->
+    <div class="hotel" id="about-page">
+        <div class="image">
+            <div class="black"> 
+                <p class="moment">Make Your Moments Special</p>
+            </div>
+            <img src="assests/featured-image-0.jpg" alt="" class="feat">
+        </div>
+        <div class="detail">
+            <h1 class="qality">Quality
+                Holidays With Us </h1>
+                <p class="info-para"><i class="fa-solid fa-check" style="color:black;" id="i"></i> Enjoy unparalleled service and attention to detail, tailored to your every need.</p>
+                <p class="info-para"><i class="fa-solid fa-check" style="color:black;" id="i"></i>Relax in style with our luxurious amenities, from fine dining to rejuvenating spa treatments. </p>
+                <p class="info-para"><i class="fa-solid fa-check" style="color:black;" id="i"></i> Experience the ultimate in comfort and convenience with our carefully selected accommodations.</p>
+        </div>
+    </div>
+    <!---------------------------------services------------------------->
+    <div class="services" id="service-page">
+      <h2 class="our">Our Services</h2>
+      <div class="top">
+       <div class="one">
+        <img src="assests/bed-removebg-preview.png" alt="" class="one-img">
+        <h6 class="h-6">Master Bedroom's</h6>
+        <p class="ser-para">Experience the ultimate in relaxation with our premium bedding and pillows</p>
+       </div>
+       <div class="one">
+        <img src="assests/balcony-removebg-preview.png" alt="" class="one-img">
+        <h6 class="h-6">Sea Veiw Balcony</h6>
+        <p class="ser-para">Enjoy the stunning vistas of the city skyline or the serene natural beauty of the countryside.</p>
+       </div>
+       <div class="one">
+        <img src="assests/car-removebg-preview.png" alt="" class="one-img">
+        <h6 class="h-6">Car Parking</h6>
+        <p class="ser-para">Enjoy secure and convenient parking at our hotel, with ample space for all our guests.</p>
+       </div>
+      </div>
+      <div class="bottom">
+     <div class="one">
+      <img src="assests/bath-removebg-preview.png" alt="" class="one-img">
+      <h6 class="h-6">Bathroom</h6>
+      <p class="ser-para">Take advantage of our luxurious bathroom products, including high-end skincare and fragrances.</p>
+     </div>
+     <div class="one">
+      <img src="assests/pool-removebg-preview.png" alt="" class="one-img">
+      <h6 class="h-6">Swiming Pool</h6>
+      <p class="ser-para">Take advantage of our luxurious bathroom products, including high-end skincare and fragrances.</p>
+     </div>
+     <div class="one">
+      <img src="assests/fork-removebg-preview.png" alt="" class="one-img">
+      <h6 class="h-6">Restaurant</h6>
+      <p class="ser-para">Savor the flavors of our expertly crafted menu, featuring the freshest ingredients and innovative techniques</p>
+     </div>
+      </div>
+    </div>
+    <!------------------------- rooms---------------------------->
+    <div class="suite" id="room-page">
+      <h1 id="suite">Room & Suite</h1>
+    <div class="rooms">
+       <div class="column">
+        <div class="img-one">
+          <!-- <div class="container"> -->
+            <img src="assests/one.jpg" alt="Avatar" class="imagess">
+            <div class="overlay">
+              <div class="text"><h6 class="super">Luxury Suite Room</h6>
+                <p class="qar">QAR 40/ Per Person</p>
+              </div>
+            </div>
+          <!-- </div> -->
+
+        </div>
+        <div class="img-one">
+          <img src="assests/six" alt="Avatar" class="imagess">
+          <div class="overlay">
+            <div class="text"><h6 class="super">Superior Room</h6>
+              <p class="qar">QAR 40/ Per Person</p>
+            </div>
+          </div>
+        </div>
+       </div>
+       <div class="column">
+        <div class="img-one">
+          <img src="assests/two.jpeg" alt="Avatar" class="imagess">
+          <div class="overlay">
+            <div class="text"><h6 class="super">Sea Veiw Room</h6>
+              <p class="qar">QAR 40/ Per Person</p>
+            </div>
+          </div>
+        </div>
+        <div class="img-one">
+          <img src="assests/three.jpeg" alt="Avatar" class="imagess">
+          <div class="overlay">
+            <div class="text"><h6 class="super">Super Balcony Delux Room</h6>
+              <p class="qar">QAR 40/ Per Person</p>
+            </div>
+          </div>
+        </div>
+       </div>
+       <div class="column">
+        <div class="img-one">
+          <img src="assests/four.jpeg" alt="Avatar" class="imagess">
+          <div class="overlay">
+            <div class="text"><h6 class="super">Super Luxury Room</h6>
+              <p class="qar">QAR 40/ Per Person</p>
+            </div>
+          </div>
+        </div>
+        <div class="img-one">
+          <img src="assests/five.jpeg" alt="Avatar" class="imagess">
+          <div class="overlay">
+            <div class="text"><h6 class="super">Delux Suite Room</h6>
+              <p class="qar">QAR 40/ Per Person</p>
+            </div>
+          </div>
+        </div>
+       </div>
+    </div>
+  </div>
+  <!--------------------------------------new room--------------------->
+  <h6 class="exp">Explore More</h6>
+  <div class="new">
+    <div class="pict">
+  <img src="assests/bg-more.jpg" alt="" class="bg">
+
+    </div>
+    <div class="more">
+      <h1 class="dis">Discover a New Look of Luxury Hotel.</h1>
+        <p class="avar">Welcome to Avaris Hotel, your home away from home. We are thrilled to have you stay with us and experience the ultimate in luxury and comfort. Our dedicated team is committed to providing you with exceptional service and ensuring that your stay with us is truly unforgettable.</p>
+        <button class="read">Read More</button>
+    </div>
+  </div>
+  <!-------------new expo----------------------------------->
+  <div class="new-expo">
+    <div class="pict">
+  <h1 class="dis">Finest Wimming Pool in Avaris</h1>
+    <p class="avar">Welcome to Avaris Hotel, your home away from home. We are thrilled to have you stay with us and experience the ultimate in luxury and comfort. Our dedicated team is committed to providing you with exceptional service and ensuring that your stay with us is truly unforgettable.</p>
+    <button class="read">Read More</button>
+    </div>
+    <div class="more">
+     <img src="assests/bg.jpg" alt="" class="bg">
+    </div>
+  </div>
+  <!-------------------------------------vacation retential-->
+  <div class="retential">
+    <h1 class="coun">Looking for a Relaxing Country
+      Vacation Rental?</h1>
+      <button class="avail">Check Availability</button>
+  </div>
+
+  <!---------footer-------------------------------->
+  <div class="footer">
+    <div class="rows">
+     <ul class="u-line">
+       <li>
+        <img src="assests/Screenshot_2025-02-01_154341-removebg-preview.png" alt="" class="last-pic">
+       </li>
+     </ul>
+    </div>
+    <div class="rows">
+     <ul class="u-line">
+       <li style="font-weight: bold;">OUR LINKS</li>
+       <li>Home</li>
+       <li>About Us</li>
+       <li>Services</li>
+       <li>Blogs</li>
+       <li>Contact Us</li>
+     </ul>
+    </div>
+    <div class="rows">
+     <ul class="u-line">
+       <li style="font-weight: bold;">OUR SERVICES</li>
+       <li>FAQ</li>
+       <li>Supports</li>
+       <li>Privacy</li>
+       <li>Terms & Condition</li>
+     </ul>
+    </div>
+    <div class="rows">
+      <ul class="u-line">
+     <li style="font-weight: bold;">CONNECT WITH US</li>
+     <li><i class="fa-solid fa-phone"></i>
+       <span>1800-121-3637</span>
+     </li>
+     <li><i class="fa-solid fa-envelope" ></i>
+     <span>info@example.com</span>
+     </li>
+     <li><i class="fa-solid fa-location-dot" ></i><span>
+        Doha,Qatar.
+     </span></li>
+    </ul>
+   </div>
+ </div>
+ <!------------------------------------------copyright------------->
+ <div class="copy-right">
+   <p id="copy-right">Copyright © Avaris 2025 . All rights reserved.</p>
+ </div>
+
+
+
+
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>
